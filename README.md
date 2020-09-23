@@ -31,14 +31,20 @@ Month 10: payment is 100834
 Overpayment = 45837
 
 
+
 python creditcalc.py --type=annuity --principal=1000000 --periods=60 --interest=10
+
 Your annuity payment = 21248!
 Overpayment = 274880
 
+
 python creditcalc.py --type=annuity --payment=8722 --periods=120 --interest=5.6
+
 Your loan principal = 800018!
 Overpayment = 246622
 
+
 python creditcalc.py --type=annuity --principal=500000 --payment=23000 --interest=7.8
+
 It will take 2 years to repay this loan!
 Overpayment = 52000
